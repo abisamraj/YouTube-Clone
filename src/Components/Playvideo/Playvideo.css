@@ -1,0 +1,370 @@
+.play-video{
+    flex-basis: 69%;
+    padding-right: 20px;
+}
+.play-video iframe{
+    width: 100%;
+    height:37vw;
+}
+.play-video h3{
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.play-video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color:  rgb(51, 50, 50);
+}
+.play-video-info img{
+    width: 20px;
+    margin-right: 8px;
+}
+.play-video-info span{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.play-video hr{
+    border: 0;
+    height: 1px;
+    background: rgb(223, 218, 218);
+    margin: 10px 0;
+}
+.publisher{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.publisher div{
+    flex: 1;
+    line-height: 18px;
+}
+.publisher img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.publisher div p{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.publisher div span{
+    font-size: 13px;
+    color: rgb(51, 50, 50) ;
+}
+.publisher button{
+    background: red;
+    color: white;
+    padding: 8px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.video-description{
+    padding-left: 55px;
+    margin: 15px 0;
+}
+.video-description p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: rgb(51, 50, 50) ;
+}
+.video-description h4{
+    font-size: 14px;
+    color: rgb(51, 50, 50) ;
+    margin-top: 15px;
+}
+.comment{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+.comment img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.comment h3{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.comment h3 span{
+    font-size: 14px;
+    color: rgb(51, 50, 50);
+    font-weight: 500;
+}
+.comment-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+.comment-action img{
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+.comment-action span{
+    margin-right: 20px;
+    color: rgb(51, 50, 50);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.play-video h3 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.play-video-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.play-video-info img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.play-video-info span {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.play-video hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+.publisher {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.publisher div {
+    flex: 1;
+    line-height: 18px;
+}
+
+.publisher img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.publisher p {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.publisher span {
+    font-size: 13px;
+    color: #5a5a5a;
+}
+
+.publisher button {
+    background: red;
+    color: #fff;
+    padding: 8px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.video-description {
+    padding-left: 55px;
+    margin: 15px 0;
+}
+
+.video-description p {
+    margin-bottom: 5px;
+    color: #5a5a5a;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.loading-message {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+.comment {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.comment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.comment-content h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.comment-content h3 span {
+    font-size: 12px;
+    color: #606060;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.comment-content p {
+    font-size: 14px;
+    color: #030303;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.comment-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.comment-actions span {
+    font-size: 13px;
+    color: #606060;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.comment-actions img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.show-more-btn {
+    background: transparent;
+    border: none;
+    color: #065fd4;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.show-more-btn:hover {
+    background-color: rgba(6, 95, 212, 0.1);
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .play-video {
+        flex-basis: 65%;
+    }
+}
+
+@media (max-width: 900px) {
+    .play-video {
+        flex-basis: 100%;
+        padding-right: 0;
+    }
+
+    .play-video iframe {
+        height: 50vw;
+    }
+
+    .play-video-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .play-video-info span {
+        margin: 5px 0;
+    }
+
+    .publisher {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .publisher button {
+        margin-top: 10px;
+    }
+
+    .video-description {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .play-video h3 {
+        font-size: 18px;
+    }
+
+    .play-video-info {
+        font-size: 12px;
+    }
+
+    .publisher div p {
+        font-size: 16px;
+    }
+
+    .publisher button {
+        padding: 6px 20px;
+        font-size: 12px;
+    }
+}
